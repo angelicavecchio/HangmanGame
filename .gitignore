@@ -1,0 +1,46 @@
+# -------------------------
+# Compiled and build files
+# -------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# -------------------------
+# Output directories
+# -------------------------
+/bin/
+/out/
+/build/
+
+# -------------------------
+# Log or temporary files
+# -------------------------
+*.log
+*.tmp
+*.swp
+
+# -------------------------
+# IDE configurations (IntelliJ, Eclipse, VSCode)
+# -------------------------
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VSCode
+.vscode/
+
+# -------------------------
+# Operating system files
+# -------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
