@@ -9,6 +9,3 @@ A classic Hangman game built in Java that runs in the console. Choose between th
 - ASCII art for hangman progress
 - Input validation and error handling
 - Option to replay the game
-
-## 📂 Project Structure
-

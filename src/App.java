@@ -82,7 +82,6 @@ public class App {
  
       
 
-        // Ciclo del gioco fino alla vittoria o alla sconfitta
         while (wrongChoice < 6 && wordState.contains('_')) {
             System.out.print("Word: ");
             for (char c : wordState) {
@@ -123,7 +122,6 @@ public class App {
         }
     
 
-        // Controllo vittoria o sconfitta
         if (!wordState.contains('_')) {
             System.out.println("You WIN! The word was: " + word);
         } else if(wrongChoice==6) {
